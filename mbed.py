@@ -36,7 +36,7 @@ from platformio.builder.tools.piolib import PlatformIOLibBuilder
 
 env = DefaultEnvironment()
 
-FRAMEWORK_DIR = env.PioPlatform().get_package_dir("framework-mbed")
+FRAMEWORK_DIR = env.PioPlatform().get_package_dir("framework-mbed-proxxi")
 assert isdir(FRAMEWORK_DIR)
 
 
